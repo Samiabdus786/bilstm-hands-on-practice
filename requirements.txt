@@ -1,0 +1,30 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# requirements.txt – Deep Learning Streamlit Apps
+# Covers: ANN, CNN, RNN, LSTM, GRU, BiLSTM, Sentiment, Transformer, BERT, GPT
+# Install with:  pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Core ML / DL
+tensorflow==2.15.0
+scikit-learn==1.4.2
+numpy==1.26.4
+pandas==2.2.2
+
+# NLP – HuggingFace (BERT, GPT apps)
+transformers==4.41.2
+torch==2.3.0           # HuggingFace backend (CPU build by default)
+sentencepiece==0.2.0   # tokenizer for some models
+tokenizers==0.19.1
+
+# Image handling (CNN app)
+Pillow==10.3.0
+
+# Visualisation
+matplotlib==3.9.0
+
+# Streamlit
+streamlit==1.35.0
+
+# Utilities
+protobuf==4.25.3       # required by TensorFlow
+h5py==3.11.0           # model saving
